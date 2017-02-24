@@ -28,7 +28,8 @@ $(function(){
 
   // front end
 
-  $("#outputResult").append(result.toString());
+  console.log(result.join("<br>"));
+  $("#outputResult").append(result.join("<br>"));
 
 });
 });
