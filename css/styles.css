@@ -1,3 +1,116 @@
-#outputResult {
-  display: block;
+
+@font-face {
+  font-family: "my-font";
+  src: url('http://www.fontspace.com/codeman38/press-start-2p?text=');
+}
+
+.jumbotron {
+  text-align: center;
+  font-family:'Yatra One', cursive;
+  color: gold;
+  background-color: black;
+  /*margin-top: 50px;*/
+
+}
+
+
+body{
+  font-family: "my-font", fantasy;
+  background-color: black;
+  color: silver;
+  background-image: url("https://media.giphy.com/media/PXqNXjkTmEfRK/giphy.gif");
+  background-repeat: repeat-y;
+  background-position:center;
+}
+
+.well{
+  background-color: black;
+  width:300px;
+
+}
+
+
+p{
+  font-size: 30px;
+}
+
+#header{
+  font-size: 30px;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.style{
+      width:900px;
+      height:2px;
+      background:black;
+     transition:all 0.6s ease;
+     -webkit-animation: swing 10s ease;
+      animation: swing 10s ease;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1;
 }
