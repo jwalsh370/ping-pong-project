@@ -10,7 +10,7 @@ $(function(){
 
     var userInput = $("input#ping").val();
     console.log(userInput);
-debugger;
+
 
   for(var n = 1; n <= userInput; n++){
     if((n % 15) === 0){
@@ -21,9 +21,15 @@ debugger;
       result.push('Ping');
     }else{
       result.push(n)
-      alert(result);
+      console.log(result);
+
     }
   }
+
+  // front end
+
+  $("#outputResult").append(result.toString());
+
 });
 });
 //   if (userInput = 3 || userInput % 3 == 3){
