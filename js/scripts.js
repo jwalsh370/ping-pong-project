@@ -28,22 +28,22 @@ $(function(){
 
   // front end
 
-  console.log(result.join("<br>"));
+
   $("#outputResult").append(result.join("<br>"));
+
+
+
 
 });
 });
-//   if (userInput = 3 || userInput % 3 == 3){
-//   for (var n = 0; n<= userInput. length; n++){
-//     $("#outputping").append("Ping");
-//     console.log("ping");
-//     if (n % 3 == 0){
-//     }
-//   }
-//   var digits = 100;
-// var result = 0;
-// for(n = digits; n > 1; ++n){
-//      ++result;
-//      n = Math.floor(n/10);
-//      console.log(result);
-// }
+$(function() {
+
+function codeLeft() {
+    $("#move").animate({left: "-=300"}, 600, "swing", codeRight);
+}
+function codeRight() {
+    $("#move").animate({left: "+=300"}, 600, "swing", codeLeft);
+}
+
+codeRight();
+});
