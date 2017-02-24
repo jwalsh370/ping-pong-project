@@ -14,8 +14,9 @@ $(function(){
       result.push('Pong');
     }else if((j %3) === 0){
       result.push('Ping');
-    }else{
-      result.push(j)
+    } else{
+      result.push(j);
+
     }
   }
   // front end

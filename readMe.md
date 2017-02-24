@@ -4,7 +4,8 @@
 ## Description
 #### This application uses javascript to form a number based ping pong game created different ping pong iterations by using the division of numbers in the multiples of 5 and 3.
 ## Setup
-#### * First open application in an up-to-date web browser.
+#### * First clone application from Github,https://github.com/jwalsh370/ping-pong-project.git.
+#### * Second open application in an up-to-date web browser.
 #### * Input specific number into required input field.
 #### * Once submitted webpage will count and return numbers replaced with ping, pong, and ping-pong.
 ## Technologies
